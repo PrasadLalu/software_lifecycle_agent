@@ -1,0 +1,11 @@
+python-dotenv
+ipykernel
+langchain
+langgraph
+pydantic
+streamlit
+langchain-core
+langchain-groq
+langchain-openai
+langchain-community
+atlassian-python-api
