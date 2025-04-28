@@ -26,8 +26,11 @@ def create_user_story(title, description, acceptance_criteria):
         "priority": {"name": "Medium"},
     }
 
-    try:
-        issue = jira.issue_create(fields=user_story)
-        print(f"Jira issue created successfully! Issue Key: {issue['key']}")
-    except Exception as e:
-        print(f"Jira issue creation failed: {e}")
+    # try:
+    #     issue = jira.issue_create(fields=user_story)
+    #     print(f"Jira issue created successfully! Issue Key: {issue['key']}")
+    # except Exception as e:
+    #     print(f"Jira issue creation failed: {e}")
+
+    print("user_story: ", user_story)
+    print("=====================================================\n")
